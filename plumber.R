@@ -71,29 +71,29 @@ function(delivery_suburb="", delivery_postcode="", delivery_state="", pickup_pos
   normalized_pickup_state <- normal_state(pickup_state)
   normalized_pickup_suburb <- normal_suburb(pickup_suburb)
   normalized_pickup_postcode <- normal_postcode(pickup_postcode)
-  
+
   normalized_delivery_state <- normal_state(delivery_state)
   normalized_delivery_suburb <- normal_suburb(delivery_suburb)
   normalized_delivery_postcode <- normal_postcode(delivery_postcode)
-  
+
   # algorithm order
-  
+
   object_for_prediction = c(
     normalized_delivery_suburb,
     normalized_delivery_postcode,
     normalized_delivery_state,
-    
+
     normalized_pickup_postcode,
     normalized_pickup_suburb,
     normalized_pickup_state
     )
-  
+
   print('object for prediction START')
   print(object_for_prediction)
   print('object for prediction END')
-  
+
   data_prediction <- knn(training_experiment[1:17317,-7], object_for_prediction, training_experiment[1:17317, 7], k=1)
-  
+
   list(
     delivery_state=delivery_state,
     delivery_suburb=delivery_suburb,
