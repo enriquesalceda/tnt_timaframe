@@ -1,0 +1,9 @@
+{
+    "path" : "~/tnt_timegrame",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

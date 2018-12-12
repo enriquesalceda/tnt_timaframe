@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544595066041.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3840554656",
+    "id" : "ADB8B99B",
+    "lastKnownWriteTime" : 1544589312,
+    "last_content_update" : 1544589312,
+    "path" : "~/tnt_timegrame/plumber.R",
+    "project_path" : "plumber.R",
+    "properties" : {
+        "cursorPosition" : "53,25",
+        "scrollLine" : "49",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
