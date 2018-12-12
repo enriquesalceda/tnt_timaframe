@@ -34,3 +34,4 @@ are gonna be more:
 5. Add authentication to the web service.
 5. Handle request errors properly.
 7. Show better errors as a web service.
+8. And more to go 😊.
