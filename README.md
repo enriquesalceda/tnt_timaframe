@@ -1,6 +1,7 @@
 # HACKATON PROJECT: Predicting provided delivery time frames by TNT
 
 This is a work in progress, at this moment the prediction accuracy is 80%.
+test
 
 ## How to run a server locally
 
